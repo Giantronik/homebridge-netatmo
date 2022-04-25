@@ -1,12 +1,6 @@
-[![Build Status](https://secure.travis-ci.org/planetk/homebridge-netatmo.png?branch=master)](http://travis-ci.org/planetk/homebridge-netatmo)
-[![downloads][downloads-image]][downloads-url]
-Like this? Please buy me a beer ...
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7ZGEPWHG5UH6S)
+[downloads-url]: https://npmjs.org/package/@crwban/homebridge-netatmo-crwban
 
-[downloads-image]: https://img.shields.io/npm/dm/homebridge-netatmo.svg?style=flat
-[downloads-url]: https://npmjs.org/package/homebridge-netatmo
-
-# homebridge-netatmo
+# homebridge-netatmo-crwban
 
 This is a plugin for homebridge. It's a working implementation for several netatmo devices:
 
