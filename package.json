@@ -1,6 +1,6 @@
 {
 	"name": "@crwban/homebridge-netatmo-crwban",
-	"version": "0.2.2",
+	"version": "0.2.3",
 	"description": "Netatmo plugin for homebridge: https://github.com/nfarina/homebridge",
 	"license": "ISC",
 	"keywords": [
