@@ -1,27 +1,29 @@
 {
-	"name": "homebridge-netatmo",
-	"version": "0.2.1",
+	"name": "@crwban/homebridge-netatmo-crwban",
+	"version": "0.2.2",
 	"description": "Netatmo plugin for homebridge: https://github.com/nfarina/homebridge",
 	"license": "ISC",
-	"keywords": ["homebridge-plugin"],
+	"keywords": [
+		"homebridge-plugin"
+	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/planetk/homebridge-netatmo.git"
+		"url": "https://github.com/crwban/homebridge-netatmo.git"
 	},
 	"engines": {
 		"node": ">=0.12.0",
 		"homebridge": ">=0.4.16"
 	},
 	"dependencies": {
-		"netatmo": "2.0.0",
-		"node-cache": "3.0.0",
 		"async": "2.0.1",
-		"glob": "7.0.5"
+		"glob": "7.0.5",
+		"netatmo": "2.0.0",
+		"node-cache": "3.0.0"
 	},
- 	"devDependencies": {
-	    "mocha": "",
- 		"assert": "1.4.1",
- 		"chalk": ""
+	"devDependencies": {
+		"assert": "1.4.1",
+		"chalk": "",
+		"mocha": ""
 	},
 	"scripts": {
 		"test": "mocha"
