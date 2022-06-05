@@ -19,7 +19,7 @@ module.exports = function(pHomebridge) {
     constructor(accessory) {
       super('Wind Strength', WIND_STRENGTH_CTYPE_ID);
       this.setProps({
-        format: Characteristic.Formats.UINT8,
+        format: Characteristic.Formats.UINT16,
         unit: "km/h",
         minValue: 0,
         maxValue: 200,
@@ -37,7 +37,7 @@ module.exports = function(pHomebridge) {
     constructor(accessory) {
       super('Wind Angle', WIND_ANGLE_CTYPE_ID);
       this.setProps({
-        format: Characteristic.Formats.UINT8,
+        format: Characteristic.Formats.UINT16,
         unit: "deg",
         minValue: 0,
         maxValue: 360,
@@ -55,7 +55,7 @@ module.exports = function(pHomebridge) {
     constructor(accessory) {
       super('Gust Strength', GUST_STRENGTH_CTYPE_ID);
       this.setProps({
-        format: Characteristic.Formats.UINT8,
+        format: Characteristic.Formats.UINT16,
         unit: "km/h",
         minValue: 0,
         maxValue: 200,
@@ -73,7 +73,7 @@ module.exports = function(pHomebridge) {
     constructor(accessory) {
       super('Gust Angle', GUST_ANGLE_CTYPE_ID);
       this.setProps({
-        format: Characteristic.Formats.UINT8,
+        format: Characteristic.Formats.UINT16,
         unit: "deg",
         minValue: 0,
         maxValue: 360,
